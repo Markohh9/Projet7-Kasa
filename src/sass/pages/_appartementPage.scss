@@ -1,0 +1,508 @@
+.section__appartement__container {
+    width: $desktop-res;
+    margin: auto;
+}
+
+.img__appartements__fill {
+    height: 415px;
+    width: $desktop-res;
+    border-radius: 25px;
+    margin: auto;
+    background-position: center;
+    margin-bottom: 30px;
+    transition: all 0.3s ease-out;
+
+    @include mobile {
+        width: 335px;
+        height: 225px;
+        margin-top: 30.71px;
+        background-size: cover;
+        margin-bottom: 15px;
+    }
+
+    @include tablet {
+        width: 720px;
+    }
+
+    @include home {
+        margin-left: 100px;
+    }
+}
+
+.arrow__appartements {
+    width: 46.68px;
+    height: 79.2px;
+    gap: 1048px;
+
+
+    &:hover {
+        transform: scale(1.2);
+        transition-duration: 400ms;
+        cursor: pointer;
+    }
+
+    @include mobile {
+        width: 11.67px;
+        height: 19.8px;
+    }
+}
+
+
+.btn__arrow__appartements {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 415px;
+    margin-left: 23.36px;
+    margin-right: 23.36px;
+
+
+    @include mobile {
+        height: 225px;
+    }
+
+    @include tablet {
+        position: relative;
+    }
+
+}
+
+.number__img__appartements {
+    color: $color-tertiary;
+    font-family: $primary-font;
+    font-size: 18px;
+    font-weight: $medium-weight;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 24.92px;
+    position: absolute;
+    height: 32.402400970458984px;
+    width: 24px;
+    margin-left: 607px;
+    margin-top: 357.67px;
+
+    @include mobile {
+        display: none;
+    }
+
+    @include tablet {
+        margin: 0;
+        width: 720px;
+        display: flex;
+        justify-content: center;
+        height: 415px;
+        align-items: flex-end;
+        font-size: 24px;
+        display: none;
+
+
+    }
+}
+
+.section__appartement1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: $desktop-res;
+    margin: auto;
+
+    @include mobile {
+        width: 335px;
+        height: 46px;
+        font-weight: $medium-weight;
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    @include tablet {
+        width: 720px;
+    }
+
+    @include home {
+        margin-left: 100px;
+    }
+}
+
+
+.title__appartement {
+
+    font-family: $primary-font;
+    font-style: $font-normal;
+    font-weight: $medium-weight;
+    font-size: 36px;
+    line-height: 51px;
+    display: flex;
+    align-items: flex-end;
+    color: #FF6060;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    @include mobile {
+        width: 335px;
+        height: 46px;
+        font-weight: $medium-weight;
+        font-size: 18px;
+        line-height: 26px;
+        align-items: flex-start;
+    }
+}
+
+.host {
+    display: flex;
+    align-items: center;
+
+    @include mobile {
+        margin-top: 242px;
+    }
+}
+
+.host__appartement {
+    height: 52px;
+    width: 93px;
+    font-family: $primary-font;
+    font-style: $font-normal;
+    font-weight: $medium-weight;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+    color: #FF6060;
+    margin: 0;
+
+    @include mobile {
+        font-size: 12px;
+        font-weight: $medium-weight;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: right;
+        height: 33px;
+        width: auto;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-end;
+    }
+}
+
+.host__picture__appartement {
+    height: 64px;
+    width: auto;
+    border-radius: 50%;
+    margin-left: 10px;
+
+    @include mobile {
+        height: 32px;
+        width: 32px;
+        margin-left: 10.5px;
+    }
+}
+
+.location__appartement {
+    font-family: $primary-font;
+    font-style: $font-normal;
+    font-weight: $medium-weight;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: flex-end;
+    color: #FF6060;
+    margin-top: 0;
+    margin-bottom: 5px;
+    width: $desktop-res;
+    margin: auto;
+
+    @include mobile {
+        width: 335px;
+        height: 22px;
+        margin-top: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: $primary-font;
+        font-style: $font-normal;
+        font-weight: $medium-weight;
+        font-size: 14px;
+        line-height: 20px;
+
+    }
+
+    @include tablet {
+        width: 720px;
+    }
+
+    @include home {
+        margin-left: 100px;
+    }
+}
+
+.tags-rating__section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: $desktop-res;
+    margin: auto;
+    margin-top: 20px;
+
+    @include mobile {
+        height: 18px;
+        width: 335px;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    @include tablet {
+        width: 720px;
+    }
+
+    @include home {
+        margin-left: 100px;
+    }
+}
+
+.tags__appartement__section {
+    display: flex;
+    flex-direction: row;
+
+    @include mobile {
+        width: 335px;
+        height: auto;
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+
+}
+
+.tags__container {
+    background-color: #FF6060;
+    border-radius: 10px;
+    height: 25px;
+    width: auto;
+    align-items: center;
+    font-family: $primary-font;
+    font-style: $font-normal;
+    font-weight: $medium-weight;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: $color-tertiary;
+    margin-right: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    @include mobile {
+        padding-top: 2px;
+        padding-bottom: 2px;
+        height: 14px;
+        width: auto;
+        border-radius: 5px;
+        font-size: 10px;
+        font-weight: $medium-weight;
+        line-height: 14px;
+        letter-spacing: 0em;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 4px;
+        padding-bottom: 2px;
+        margin-top: 10px;
+
+        p {
+            font-family: $primary-font;
+            font-size: 10px;
+            font-weight: $medium-weight;
+            line-height: 14px;
+            letter-spacing: 0em;
+            text-align: center;
+
+        }
+
+    }
+}
+
+.rating__appartement__section {
+    margin-top: -20px;
+
+    @include mobile {
+        position: absolute;
+        margin-top: 110px;
+
+        img {
+            height: 13px;
+            margin-right: 6.59px;
+        }
+    }
+}
+
+/* Menu Appartement Page*/
+
+.menu__apps__container {
+    width: $desktop-res;
+    height: auto;
+    margin: auto;
+
+    @include mobile {
+        margin-top: 76px;
+        width: 335px;
+    }
+
+    @include tablet {
+        width: 720px;
+    }
+
+    @include home {
+        margin-left: 100px;
+    }
+}
+
+.menu__appartement {
+    display: flex;
+    gap: 76px;
+    margin-top: 24px;
+
+    @include mobile {
+        display: block;
+
+    }
+
+    @include tablet {
+        display: block;
+    }
+}
+
+
+.dropbtncontainer__appartement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 582px;
+
+    margin-bottom: 33px;
+
+    @include mobile {
+        width: 335px;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    @include tablet {
+        width: 720px;
+    }
+}
+
+.dropbtn__appartement {
+    height: 52px;
+    width: 582px;
+    background: #ff6060;
+    border-radius: 10px;
+    border: none;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    @include mobile {
+        width: 335px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    @include tablet {
+        width: 720px;
+    }
+}
+
+.li__appartement {
+    list-style-type: none;
+}
+
+.txtondropbtn__appartement {
+    height: 249px;
+    width: 542px;
+    font-family: $primary-font;
+    font-style: $font-normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    color: #ff6060;
+    background: #f7f7f7;
+    border-radius: 5px;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    @include mobile {
+        font-family: $primary-font;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: auto;
+        padding-top: 17px;
+        height: auto;
+        padding-bottom: 1px;
+    }
+
+    @include tablet {
+        width: 680px;
+        height: auto;
+    }
+}
+
+.txtbtndrop__appartement {
+    font-family: $primary-font;
+    font-style: $font-normal;
+    font-weight: $medium-weight;
+    font-size: 24px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    p {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin-left: 0;
+    }
+
+    @include mobile {
+        height: 19px;
+        width: 335px;
+        margin-left: 11px;
+        font-size: 13px;
+        line-height: 142.6%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.arrowbtn__appartement {
+    margin-right: 11.8px;
+
+
+
+    @include mobile {
+        height: 9px;
+        width: 15px;
+        margin: 0;
+    }
+
+
+}

@@ -1,0 +1,87 @@
+
+.Errortxt {
+
+    height: 263px;
+    width: 597px;
+    font-family: $primary-font;
+    font-style: $font-normal;
+    font-weight: $strong-weight;
+    font-size: 288px;
+    line-height: 142.6%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: $color-primary;
+    margin: auto;
+    margin-top: 169px;
+
+    @include mobile {
+        height: 99px;
+        width: 198px;
+        font-size: 96px;
+        margin-bottom: 11px
+    }
+
+    
+    @include tablet {
+        margin: auto;
+    }
+}
+
+.ErrorDescTxt {
+    font-family: $primary-font;
+    font-style: $font-normal;
+    font-weight: $medium-weight;
+    font-size: 36px;
+    line-height: 142.6%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: $color-primary;
+    margin-bottom: 182px;
+
+    @include mobile {
+        height: 52px;
+        width: 260px;
+        font-size: 18px;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 133px;
+    }
+
+    @include tablet {
+        text-align: center;
+        margin-bottom: 72px;
+    }
+}
+
+.linkError {
+    height: 26px;
+    width: 284px;
+    font-family: $primary-font;
+    font-style: $font-normal;
+    font-weight: $medium-weight;
+    font-size: 18px;
+    line-height: 142.6%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-decoration-line: underline;
+    color: $color-primary;
+    margin-bottom: 159px;
+    margin: auto;
+    margin-bottom: 159px;
+    text-decoration-color: $color-primary;
+
+    @include mobile {
+        height: 20px;
+        width: 221px;
+        font-size: 14px;
+        margin-bottom: 235px;
+    }
+
+    @include tablet {
+        margin-bottom: 72px;
+    }
+}

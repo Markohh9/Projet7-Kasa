@@ -1,0 +1,32 @@
+/* responsiv */
+
+@mixin mobile {
+    @media (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (min-width: 768px) and (max-width: 992px) {
+        @content;
+    }
+}
+
+
+@mixin flex-rightside {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+@mixin home {
+@media (min-width: 992px) and (max-width: 1256px) {
+    @content;
+    }
+}
+
+@mixin definedRes {
+    @media (min-width: 992px) and (max-width: 1420px) {
+        @content;
+        }
+    }
+

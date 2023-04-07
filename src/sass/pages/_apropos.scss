@@ -1,0 +1,36 @@
+
+.bodyBannerPropos {
+    height: $desktop-res-height;
+    width: $desktop-res;
+    margin-left: $margin-desktop;
+    margin-right: $margin-desktop;
+    margin: auto;
+    margin-bottom: 43px;
+    background-image: url("../../assets/img/BodyPropos.png");
+    filter: brightness(0.7);
+    border-radius: 25px;
+    background-position: center;
+    display: flex;
+
+    
+
+
+    @include mobile {
+        height: $desktop-res-height;
+        width: 336px;
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 0;
+        border-radius: 10px;
+        background-position: none;
+        background-size: cover;
+    }
+
+    @include tablet {
+        width: auto;
+    }
+
+    @include home {
+        margin-left: 100px;
+    }
+}

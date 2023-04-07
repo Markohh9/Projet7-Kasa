@@ -1,0 +1,104 @@
+.navdiv {
+        margin-top: 40px;
+        margin-left: $margin-desktop;
+        margin-right: $margin-desktop;
+        margin-bottom: 63px;
+
+        @include mobile {
+                height: 47px;
+                width: 335px;
+                margin: auto;
+                margin-bottom: 20px
+        }
+
+        @include tablet {
+        
+        }
+        
+}
+
+nav {
+        width: $desktop-res;
+        height: 68px;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        margin: auto;
+        @include flex-rightside;
+
+        img {
+                @include mobile {
+                        height: 47px;
+                        width: 145px;
+                        margin-right: 0;
+                }
+        }
+
+        @include mobile {
+                width: auto;
+        }
+
+        @include tablet {
+                width: auto;
+                display: flex;
+                justify-content: space-between;
+        }
+}
+
+.AccueilLink {
+        font-family: $primary-font;
+        font-weight: $medium-weight;
+        font-size: $text-size;
+        color: $color-primary;
+        text-decoration: none;
+        height: 136px;
+        width: 34px;
+        margin-left: 720px;
+
+        @include mobile {
+                height: 17px;
+                width: 59px;
+                margin-left: 60px;
+                font-family: $primary-font;
+                font-style: $font-normal;
+                font-weight: $medium-weight;
+                font-size: 12px;
+                line-height: 142.6%;
+
+        }
+
+        @include tablet {
+        
+                margin-left: 0;
+        }
+}
+
+.ProposLink {
+        font-family: $primary-font;
+        font-weight: $medium-weight;
+        font-size: $text-size;
+        color: $color-primary;
+        text-decoration: none;
+        height: 116px;
+        width: 34px;
+        margin-left: 57px;
+
+        @include mobile {
+                height: 17px;
+                width: 71px;
+                margin-left: 10px;
+                font-family: $primary-font;
+                font-style: $font-normal;
+                font-weight: $medium-weight;
+                font-size: 12px;
+                line-height: 142.6%;
+        }
+
+        @include tablet {
+        
+        }
+}
+
+.active {
+        text-decoration: underline;
+}
